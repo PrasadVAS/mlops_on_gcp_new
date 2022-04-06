@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def server_check():
-    return "Success Success Success!"
+    return "Success Success Success Success!"
 
 @app.route('/predict', methods=['POST'])
 def predictor():
